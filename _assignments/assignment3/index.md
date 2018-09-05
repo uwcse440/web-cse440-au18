@@ -26,6 +26,11 @@ link_project_3g: https://canvas.uw.edu/courses/1124153/assignments/3986579
 
 ---
 
+<div class="alert alert-danger" markdown="1">
+This page is still being migrated and developed.
+Information here is likely suggestive of the final page, but remains subject to change.
+</div>
+
 # Overview
 
 Now that you have chosen a design, it is time to iteratively refine that design.

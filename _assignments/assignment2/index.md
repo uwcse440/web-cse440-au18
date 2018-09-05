@@ -34,10 +34,10 @@ link_project_2h: https://canvas.uw.edu/courses/1124153/assignments/3986567
 
 ---
 
-<!--div class="alert alert-danger" markdown="1">
+<div class="alert alert-danger" markdown="1">
 This page is still being migrated and developed.
 Information here is likely suggestive of the final page, but remains subject to change.
-</div-->
+</div>
 
 # Overview
 
