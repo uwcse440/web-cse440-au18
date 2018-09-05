@@ -1,0 +1,11 @@
+# web-cse440-au18
+
+{% if readme.travis_badge %}
+{{ readme.travis_badge }}
+{% endif %}
+
+The course website for CSE 440 in Autumn 2018.
+
+{% include "base/readme/install.md" %}
+
+{% include "base/readme/invoke.md" %}
