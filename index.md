@@ -85,20 +85,18 @@ A small set of readings are assigned throughout the quarter, with additional res
 
 __Contact__: Email all instructors at cse440-staff [at] cs.washington.edu
 
-__Class Time & Location__: Tuesdays & Thursdays, 10:30-11:50 OUG 136
+__Class Time & Location__: Tuesdays & Thursdays, 11:30-12:50 OUG 141
 
 __Section Times & Locations__: 
 
-- Fridays, 10:30-11:20 MGH 295
-- Fridays, 11:30-12:20 MGH 295
+- Fridays, 10:30-11:20 PAR 112
+- Fridays, 11:30-12:20 OUG 136
 - Fridays, 1:30-2:20 MGH 295
 - Fridays, 2:30-3:20 MGH 295
 
 __Office Hours__: 
 
-Pre-scheduled hours are held by Katharina:
-
-- Katharina, Tuesdays 1:30 to 2:30, CSE 566
+Pre-scheduled hours are held by Nigini, Wednesday? X:00 to Y:00, CSE 566
 
 Other meetings are possible by appointment. Please contact the TAs from your Friday sections.
 
@@ -107,24 +105,24 @@ __Course Staff__:
 <html>
   <div class="row">
     <div class="col-md-2">
-      <p>Katharina Reinecke</p>
-      <p><img src="{{ site.baseurl }}/images/katharina_photo.jpg" width="150" alt="Katharina Reinecke"/></p>
-    </div>
-    <div class="col-md-2">
-      <p>Ashish Chaudhary</p>
-      <p><img src="{{ site.baseurl }}/images/ashish_photo.jpg" width="150" alt="Ashish Chaudhary"/></p>
-    </div>
-    <div class="col-md-2">
-      <p>Dhruv Jain</p>
-      <p><img src="{{ site.baseurl }}/images/dhruv_photo.jpg" width="150" alt="Dhruv Jain"/></p>
-    </div>
-    <div class="col-md-2">
       <p>Nigini Oliveira</p>
       <p><img src="{{ site.baseurl }}/images/nigini_photo.jpg" width="150" alt="Nigini Oliveira"/></p>
     </div>
     <div class="col-md-2">
       <p>Manaswi Saha</p>
       <p><img src="{{ site.baseurl }}/images/manaswi_photo.png" width="150" alt="Manaswi Saha"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Liang He</p>
+      <p><img src="{{ site.baseurl }}/images/liang_photo.jpg" width="150" alt="Liang He"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Jian Li Zheng</p>
+      <p><img src="{{ site.baseurl }}/images/jian_photo.jpg" width="150" alt="Jian Li Zheng"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Jeremy Viny</p>
+      <p><img src="{{ site.baseurl }}/images/jeremy_photo.jpg" width="150" alt="Jeremy Viny"/></p>
     </div>
   </div>
 </html>
@@ -185,6 +183,6 @@ The course staff has a large number of submissions to manage, so format and comp
 
 This course website lives on GitHub:
 
-<https://github.com/uwcse440/web-cse440-wi18>
+<https://github.com/uwcse440/web-cse440-au18>
 
 You can submit pull requests to update the webpage, and you will publish project webpages via pull request.
