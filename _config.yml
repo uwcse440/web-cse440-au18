@@ -52,6 +52,7 @@ exclude:
   - secrets
   # Tests
   - tests
+  - vendor
 
 collections:
   assignments:

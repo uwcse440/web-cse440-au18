@@ -14,7 +14,7 @@ This course provides an introduction to human-computer interaction and the desig
 Students will learn methods and skills for designing and prototyping interactive systems.
 The course covers a design process from the initial formulation of a design problem to creation of digital prototypes.
 The class structure is a mix of lectures, classroom activities, and design critiques by peers and course staff.
-The course is overwhelmingly organized around a group project, in which students:
+The course is organized around a group project, in which students:
 
 - Ideate and Propose Design Problems
 - Study Existing Practices and Challenges
