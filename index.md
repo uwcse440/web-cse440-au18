@@ -114,7 +114,7 @@ __Course Staff__:
     </div>
     <div class="col-md-2">
       <p>Liang He</p>
-      <p><img src="{{ site.baseurl }}/images/liang_photo.jpg" width="150" alt="Liang He"/></p>
+      <p><img src="{{ site.baseurl }}/images/liang_photo.png" width="150" alt="Liang He"/></p>
     </div>
     <div class="col-md-2">
       <p>Jian Li Zheng</p>
