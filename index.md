@@ -96,7 +96,7 @@ __Section Times & Locations__:
 
 __Office Hours__: 
 
-Pre-scheduled hours are held by Nigini, Wednesday? X:00 to Y:00, CSE 566
+Pre-scheduled meetings are held by Nigini, Wednesday 10:00 to 12:00, CSE 218. (Please, send an email at least 24hs in advance.)
 
 Other meetings are possible by appointment. Please contact the TAs from your Friday sections.
 
