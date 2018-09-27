@@ -64,10 +64,11 @@ Projects are organized around four assignments, each consisting of several miles
 - [Assignment 3 - Getting the Design Right]({{ site.baseurl }}/assignments/assignment3/)
 - [Assignment 4 - Communicating the Design]({{ site.baseurl }}/assignments/assignment4/)
 
-Sample projects from prior offerings include:
+Get inspired by many great projects from previous quarters:
 
-{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
-  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}){% endfor %}{% endfor %}
+- [Fall 2017 Projects](https://courses.cs.washington.edu/courses/cse440/17au/projects.html)
+- [Winter 2018 Projects](https://courses.cs.washington.edu/courses/cse440/18wi/projects.html)
+
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
 Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
@@ -169,9 +170,11 @@ If necessary, we reserve the ability to adjust an individual's grade with regard
 
 # Submission
 
-Many assignments are due "the night before class". We will implement this in Canvas as 11:59pm.
+__You are responsible for tracking the deadline. Check out [the Calendar]({{ site.baseurl }}/calendar.html)!__
+
+Many assignments are due "the night before class". We will implement this in Canvas as 11:59pm (but you can use the hours before dawn).
 In order to be prepared to give you feedback, the course staff must have your submission in the morning.
-Submitting the day of class, just before class, or in class is therefore unacceptable, risking zero credit.
+Submitting the day of class, just before class, or in class is risking zero credit.
 
 Submissions should be in PDF format (i.e., not plain text, not Word). 
 The PDF should be printable, containing everything we need to review and grade the assignment (e.g., your name).
