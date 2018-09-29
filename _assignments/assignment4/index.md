@@ -2,15 +2,16 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 4: Communicating Your Design"
 
-[//]: # (due_project_4a: Uploaded Monday - due night before class - March 5, 2018)
-[//]: # (link_project_4a: https://canvas.uw.edu/courses/1124153/assignments/3986574)
-[//]: # (due_project_4b: Uploaded Wednesday - due night before class - March 7, 2018)
-[//]: # (link_project_4b: https://canvas.uw.edu/courses/1124153/assignments/3986575)
-[//]: # (due_project_4c: Completed in section on Friday, March 9, 2018)
-[//]: # (due_project_4d: Uploaded Friday, March 9, 2018)
-[//]: # (link_project_4d_poster: https://canvas.uw.edu/courses/1124153/assignments/3986577)
-[//]: # (link_project_4d_video: https://canvas.uw.edu/courses/1098203/assignments/3615348)
-[//]: # (due_project_4e: Attend 10:30am-12:30pm, Monday, March 12, 2018)
+[//]: # (due_project_4a: Uploaded Monday - due night before class - December 3, 2018)
+[//]: # (link_project_4a: https://canvas.uw.edu/courses/1219632/assignments/4439148)
+[//]: # (due_project_4b: Uploaded Wednesday - due night before class - December 5, 2018)
+[//]: # (link_project_4b: https://canvas.uw.edu/courses/1219632/assignments/4439149)
+[//]: # (due_project_4c: Completed in section on Friday, December 7, 2018)
+[//]: # (due_project_4d: Uploaded Friday, December 7, 2018)
+[//]: # (link_project_4d_poster: https://canvas.uw.edu/courses/1219632/assignments/4439151)
+[//]: # (link_project_4d_video: )
+[//]: # (due_project_4e: Attend 10:30am-12:30pm, Monday, December 10, 2018)
+
 
 ---
 
