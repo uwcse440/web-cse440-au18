@@ -30,6 +30,52 @@ The course is organized around a group project, in which students:
 - Rapid Prototyping and Iteration
 - Critical Perspective on Design Solutions
 
+# Basic Information
+
+__Contact__: Email all instructors at cse440-staff [at] cs.washington.edu
+
+__Class Time & Location__: Tuesdays & Thursdays, 11:30-12:50 OUG 141
+
+__Section Times & Locations__: 
+
+- Fridays, 10:30-11:20 PAR 112
+- Fridays, 11:30-12:20 OUG 136
+- Fridays, 1:30-2:20 MGH 295
+- Fridays, 2:30-3:20 MGH 295
+
+__Office Hours__: 
+
+Pre-scheduled meetings are held by Nigini, Wednesday 10:00 to 12:00, CSE 218. (Please, send an email at least 24hs in advance.)
+
+Other meetings are possible by appointment. Please contact the TAs from your Friday sections.
+
+__Course Staff__:
+
+<html>
+  <div class="row">
+    <div class="col-md-2">
+      <p>Nigini Oliveira</p>
+      <p><img src="{{ site.baseurl }}/images/nigini_photo.jpg" width="150" alt="Nigini Oliveira"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Manaswi Saha</p>
+      <p><img src="{{ site.baseurl }}/images/manaswi_photo.png" width="150" alt="Manaswi Saha"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Liang He</p>
+      <p><img src="{{ site.baseurl }}/images/liang_photo.png" width="150" alt="Liang He"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Jian Li Zheng</p>
+      <p><img src="{{ site.baseurl }}/images/jian_photo.jpg" width="150" alt="Jian Li Zheng"/></p>
+    </div>
+    <div class="col-md-2">
+      <p>Jeremy Viny</p>
+      <p><img src="{{ site.baseurl }}/images/jeremy_photo.jpg" width="150" alt="Jeremy Viny"/></p>
+    </div>
+  </div>
+</html>
+
 # Project Theme
 
 This year’s project theme will be “Designing for diversity”! You will be encouraged to design for groups of people who are different from yourself and/or to design for inclusiveness, connecting people from different backgrounds. 
@@ -81,52 +127,6 @@ A small set of readings are assigned throughout the quarter, with additional res
 - [Reading Assignments]({{ site.baseurl }}/assignments/readings/)
 
 <!-- `Readings information will be released soon.` -->
-
-# Basic Information
-
-__Contact__: Email all instructors at cse440-staff [at] cs.washington.edu
-
-__Class Time & Location__: Tuesdays & Thursdays, 11:30-12:50 OUG 141
-
-__Section Times & Locations__: 
-
-- Fridays, 10:30-11:20 PAR 112
-- Fridays, 11:30-12:20 OUG 136
-- Fridays, 1:30-2:20 MGH 295
-- Fridays, 2:30-3:20 MGH 295
-
-__Office Hours__: 
-
-Pre-scheduled meetings are held by Nigini, Wednesday 10:00 to 12:00, CSE 218. (Please, send an email at least 24hs in advance.)
-
-Other meetings are possible by appointment. Please contact the TAs from your Friday sections.
-
-__Course Staff__:
-
-<html>
-  <div class="row">
-    <div class="col-md-2">
-      <p>Nigini Oliveira</p>
-      <p><img src="{{ site.baseurl }}/images/nigini_photo.jpg" width="150" alt="Nigini Oliveira"/></p>
-    </div>
-    <div class="col-md-2">
-      <p>Manaswi Saha</p>
-      <p><img src="{{ site.baseurl }}/images/manaswi_photo.png" width="150" alt="Manaswi Saha"/></p>
-    </div>
-    <div class="col-md-2">
-      <p>Liang He</p>
-      <p><img src="{{ site.baseurl }}/images/liang_photo.png" width="150" alt="Liang He"/></p>
-    </div>
-    <div class="col-md-2">
-      <p>Jian Li Zheng</p>
-      <p><img src="{{ site.baseurl }}/images/jian_photo.jpg" width="150" alt="Jian Li Zheng"/></p>
-    </div>
-    <div class="col-md-2">
-      <p>Jeremy Viny</p>
-      <p><img src="{{ site.baseurl }}/images/jeremy_photo.jpg" width="150" alt="Jeremy Viny"/></p>
-    </div>
-  </div>
-</html>
 
 # Grading
 
