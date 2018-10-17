@@ -2,10 +2,8 @@
 layout: base/bar/bar-sidebar-none
 title: "Readings"
 
-link_reading_empathy: https://canvas.uw.edu/courses/1124153/assignments/3986580
-link_reading_empathy_file_empathy: https://canvas.uw.edu/files/45715551/download?download_frd=1
-link_reading_empathy_file_ideo_method_cards: https://canvas.uw.edu/files/40115291/download?download_frd=1
-link_reading_empathy_file_universal_methods: https://canvas.uw.edu/files/39906877/download?download_frd=1
+link_reading_empathy: https://canvas.uw.edu/courses/1219632/assignments/4439154
+link_reading_empathy_file_empathy: https://canvas.uw.edu/files/50913645/download?download_frd=1
 due_reading_empathy: Uploaded Monday - due night before class - October 15, 2018
 
 link_reading_storyboarding: https://canvas.uw.edu/courses/1124153/assignments/3986581
