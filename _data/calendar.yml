@@ -104,15 +104,15 @@ lectures:
     #slides: "slides/lecture/l13-interfaceimplementation.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dca0f4a0-2c45-4656-a7b3-fddae52979d6"
   - date: "2018-11-08"
-    name: "Patterns"
+    name: "Accessibility"
     #slides: "slides/lecture/l14-history.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75db126b-00c5-482b-8899-818a4da4391a"
   - date: "2018-11-13"
-    name: "Interface Implementation"
+    name: "Patterns"
     #slides: "slides/lecture/l15-designingfordiverseneeds.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=33a018b1-c498-44cd-9edf-30e238a6656d"
   - date: "2018-11-15"
-    name: "Accessibility"
+    name: "Interface Implementation"
     #slides: "slides/lecture/l17-videos.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=13d54897-953d-4b90-a841-7e1e0c14145f"  
   - date: "2018-11-20"
@@ -249,10 +249,17 @@ majors:
     #link: "assignments/assignment4/#final_everything"
 
 aways:
+  - date: "2018-11-05"
+    name: Nigini at CSCW
   - date: "2018-11-06"
+    name: Nigini at CSCW
+  - date: "2018-11-07"
     name: Nigini at CSCW
   - date: "2018-11-08"
     name: Nigini at CSCW
+  - date: "2018-11-09"
+    name: Nigini at CSCW
+
 
 officehours:
   - date: "2018-10-03"
