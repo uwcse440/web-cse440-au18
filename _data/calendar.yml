@@ -9,7 +9,7 @@ locations:
 
   exam:
     - time: "11:30 - 12:50"
-      location: "???"
+      location: "OUG 141"
 
   sections:
     - time: "10:30 - 11:20"
@@ -44,7 +44,7 @@ locations:
   
   presentation:
     - time: "10:30-11:50"
-      location: "OUG 136"
+      location: "OUG 141"
 
 lectures:
   - date: "2018-09-27"
@@ -97,15 +97,15 @@ lectures:
     # notes: "Required for Project 3b"
   - date: "2018-11-01"
     name: "Testing"
-    #slides: "slides/lecture/l12-humanperformance.pdf"
+    slides: "slides/CSE440-11-Testing.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2be7adb-8aae-42fc-9204-a3da5df77e82"
   - date: "2018-11-06"
     name: "Heuristic Evaluation"
-    #slides: "slides/lecture/l13-interfaceimplementation.pdf"
+    #slides: "https://canvas.uw.edu/courses/1219632/discussion_topics/4523704"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dca0f4a0-2c45-4656-a7b3-fddae52979d6"
   - date: "2018-11-08"
     name: "Accessibility"
-    #slides: "slides/lecture/l14-history.pdf"
+    slides: "slides/CSE440-13-Accessibility.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75db126b-00c5-482b-8899-818a4da4391a"
   - date: "2018-11-13"
     name: "Patterns"
@@ -116,10 +116,6 @@ lectures:
     #slides: "slides/lecture/l17-videos.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=13d54897-953d-4b90-a841-7e1e0c14145f"  
   - date: "2018-11-20"
-    name: "Noir Design"
-    #slides: "slides/lecture/l17-videos.pdf"
-    #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=13d54897-953d-4b90-a841-7e1e0c14145f"  
-  - date: "2018-11-27"
     name: "Recap and Exam Q&A Session"
     #slides: "slides/lecture/l17-videos.pdf"
     #panopto: "https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=13d54897-953d-4b90-a841-7e1e0c14145f"  
@@ -259,6 +255,8 @@ aways:
     name: Nigini at CSCW
   - date: "2018-11-09"
     name: Nigini at CSCW
+  - date: "2018-11-27"
+    name: NO CLASS
 
 
 officehours:
