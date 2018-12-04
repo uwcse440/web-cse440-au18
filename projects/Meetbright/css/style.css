@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h4 {
@@ -37,7 +37,13 @@ h5 {
 }
 
 a {
+  color: #505050;
   letter-spacing: 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #505050;
   text-decoration: none;
 }
 
@@ -51,7 +57,6 @@ li {
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 30px;
-  text-transform: capitalize;
 }
 
 p {
@@ -65,6 +70,10 @@ p {
 
 span {
   letter-spacing: 1px;
+}
+
+section {
+  padding-top: 100px;
 }
 
 .img-fluid {
@@ -140,6 +149,36 @@ span {
   font-weight: 500;
 }
 
+.bg-dark-mint {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(222.78deg, rgba(214, 241, 235, 0.7) 37.67%, rgba(160, 213, 221, 0.7) 85.98%);
+}
+
+.bg-light-mint {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(193.71deg, rgba(214, 241, 235, 0.12) 29.75%, rgba(214, 241, 235, 0.58) 89.04%);
+}
+
+.bg-dark-blue {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(225.68deg, rgba(195, 219, 238, 0.7) 38.5%, rgba(125, 186, 232, 0.7) 88.37%);
+}
+
+.bg-light-blue {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(225.68deg, rgba(208, 229, 245, 0.7) 38.5%, rgba(237, 246, 253, 0.7) 88.37%);
+}
+
+.bg-lime {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(165.85deg, rgba(214, 241, 235, 0.12) 23.07%, rgba(156, 206, 152, 0.3) 81.9%);
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -186,73 +225,6 @@ span {
 .scroll-header {
   background: #fff;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
-}
-
-/*--------------------------------------------------------------
-# Title Section
---------------------------------------------------------------*/
-#title {
-  width: 100%;
-  height: calc(100vh - 40px);
-  background-size: 100%;
-  position: relative;
-  margin-top: 40px;
-}
-
-@media (min-width: 1025px) {
-  #title {
-    background-attachment: fixed;
-  }
-}
-
-#title .title-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-#title h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  font-family: "Philosopher", sans-serif;
-  color: #71c55d;
-}
-
-@media (max-width: 768px) {
-  #title h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#title h2 {
-  color: #777;
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
-
-@media (max-width: 768px) {
-  #title h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-#title img {
-  max-width: 95%;
-  margin-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -491,196 +463,207 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 /*--------------------------------------------------------------
-# Overview Section
+# Title Section
 --------------------------------------------------------------*/
-
-#overview .container {
-  clear: both;
-}
-
-#overview .large-text p {
-  font-size: 25px;
-}
-
-#overview .half-page {
-  width: 50%;
-}
-
-#overview .container-left {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  float: left;
-  text-align: left;
-}
-
-#overview .container-right {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  float: right;
-  text-align: right;
-}
-
-/*--------------------------------------------------------------
-# Other Sections
---------------------------------------------------------------*/
-
-.padd-section {
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-
-@media (max-width: 992px) {
-  .padd-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
-
-.section-title {
-  margin-bottom: 80px;
-}
-
-@media (max-width: 992px) {
-  .section-title {
-    margin-bottom: 40px;
-  }
-}
-
-.section-title h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 45px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-title .separator {
-  margin: 0;
-}
-
-.separator {
-  color: #626262;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  margin-bottom: 30px;
-  text-transform: capitalize;
-}
-
-/* Get Started Section
---------------------------------*/
-#get-started {
-  display: inline-block;
-  height: 100%;
+#title {
   width: 100%;
+  height: calc(100vh - 40px);
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
 }
 
-#get-started .feature-block {
-  background: #fff none repeat scroll 0 0;
-  padding: 30px 20px;
-  transition: all 0.5s ease-in-out 0s;
+@media (min-width: 1025px) {
+  #title {
+    background-attachment: fixed;
+  }
 }
 
-@media (max-width: 991px) {
-  #get-started .feature-block {
+#title .title-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#title h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Philosopher", sans-serif;
+  color: #71c55d;
+}
+
+@media (max-width: 768px) {
+  #title h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#title h2 {
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  #title h2 {
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 30px;
   }
 }
 
-#get-started .feature-block:hover {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-in-out 0s;
+#title img {
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
-#get-started .feature-block h4 {
-  margin-bottom: 20px;
+/*--------------------------------------------------------------
+# Overview Section
+--------------------------------------------------------------*/
+
+#overview li {
+  padding-left: 75px;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
 }
 
-#get-started .feature-block p {
-  margin-bottom: 20px;
+#overview .overview-item {
+  display: inline;
 }
 
-#get-started .feature-block a {
-  color: #505050;
-  font-size: 12px;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: 0.3s;
+#overview .left-column {
+  width: 75%;
+  margin-right: 25%;
+  text-align: left;
+  padding-bottom: 150px;
 }
 
-#get-started .feature-block a:hover {
-  color: #71c55d;
+#overview .right-column {
+  width: 75%;
+  margin-left: 25%;
+  text-align: right;
+  padding-bottom: 150px;
 }
 
-/* About Us Section
+#overview .container {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+#overview .overview-heading {
+  text-align: left;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+#overview .overview-sub-heading {
+  text-align: left;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+#overview .overview-description {
+  text-align: left;
+  font-size: 15px;
+}
+
+#overview .phone {
+  padding-left: 100px;
+}
+
+/* Features Section
 --------------------------------*/
 
-#about-us {
+#features li {
+  display: inline-block;
+  width: 40%;
+}
+
+#features .container {
   text-align: center;
 }
 
-#about-us .about-title {
-  font-size: 25px;
-  text-align: center
+#features .feature-item {
+  display: inline;
+  padding: 20px;
 }
 
-#about-us .about-items {
-  width: 50%;
+#features .feature-title {
+  font-size: 35px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#features .feature-text {
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+# Documentation Section
+--------------------------------------------------------------*/
+
+#documentation li {
+  display: inline;
+}
+
+#documentation .container {
+  text-align: center;
+}
+
+#documentation .doc-item {
   display: inline-block;
   padding: 50px;
 }
 
-#about-us .about-items:after {
-  display: table;
-  clear: both;
+#documentation .doc-icon {
+  padding-bottom: 10px;
+}
+
+#documentation .doc-text {
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+/* About Us Section
+--------------------------------------------------------------*/
+
+#about-us li {
+  display: inline;
+}
+
+#about-us .container {
+  text-align: center;
 }
 
 #about-us .about-item {
-  width: 50%;
-  float: left;
+  display: inline-block;
+  padding: 50px;
 }
 
-#about-us .about-picture {
+#about-us .about-icon {
   border-radius: 50%;
   padding-bottom: 10px;
 }
 
 #about-us .about-name {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #about-us .about-role {
   font-size: 15px;
-}
-
-/* Features Section
---------------------------------*/
-#features {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-}
-
-#features .feature-block {
-  background: #fff none repeat scroll 0 0;
-  padding: 30px 20px;
-  margin-bottom: 30px;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-#features .feature-block:hover {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-in-out 0s;
-}
-
-#features .feature-block h4 {
-  margin-bottom: 20px;
-}
-
-#features .feature-block p {
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
