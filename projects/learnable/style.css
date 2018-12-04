@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans");
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+}
+
+.student, .teacher, .neutral1, .neutral2 {
+    padding: 50px 0;
+}
+.student {
+    background: #ffaa00;
+    color: #fff;
+}
+.teacher {
+    background: #56ccf2;
+    color: #fff;
+}
+.neutral1 {
+    background: #f2f2f2;
+    color: #333;
+}
+.neutral2 {
+    background: #fff;
+    color: #333;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+h1, h2, p, .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p {
+    line-height: 1.5;
+}
+.narrow {
+    max-width: 800px;
+}
+.container, .front-graphic {
+    padding: 0 50px;
+    content: "";
+    display: table;
+    clear: both;
+    width: calc(100% - 100px);
+}
+
+h1, h2 {
+    font-family: "Fredoka One", cursive;
+}
+h1 {
+    font-size: 36pt;
+    padding: 0 50px;
+}
+h2 {
+    font-size: 24pt;
+    padding-bottom: 20px;
+}
+h3 {
+    text-align: center;
+    font-size: 18pt;
+}
+
+.front h2 {
+    width: 40%;
+    margin: 0 25px 0 0;
+    float: left;
+}
+.front p {
+    clear: right;
+}
+.front-graphic {
+    margin-bottom: 50px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+.front-graphic img {
+    width: 60%;
+}
+
+.graphic {
+    width: calc(50% - 20px);
+    float: left;
+    margin: 20px 0;
+}
+.graphic:nth-of-type(odd) {
+    margin-right: 40px;
+}
+.graphic img {
+    width: 100%;
+    border: 1px #fff solid;
+}
+.graphic p {
+    text-align: center;
+}
+
+.team, .reports {
+    text-align: center;
+    margin-bottom: 0;
+}
+.team > li, .reports > li {
+    display: inline-block;
+    max-width: 200px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.reports {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.reports li {
+    max-width: 300px;
+}
+.reports a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    opacity: 0.8;
+    transition-property: opacity background;
+    transition-duration: 0.5s;
+    padding: 20px;
+    border-radius: 10px;
+}
+.reports a:hover {
+    opacity: 1;
+    background: #f2f2f2;
+}
+.reports .type {
+    color: #777;
+    margin-bottom: 0;
+}
+
+.team img {
+    width: 100%;
+    border-radius: 50%;
+}
+.name {
+    font-weight: bold;
+}
+.team .roles {
+    color: #777;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer {
+    font-size: 12pt;
+    color: #777;
+    margin: 20px 0;
+}
+
+@media (max-width: 700px) {
+    .front-graphic {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .front-graphic img {
+        width: 100%;
+    }
+    .front h2 {
+        margin-bottom: 40px;
+    }
+    .front p, .front h2 {
+        width: 100%;
+    }
+    .graphic {
+        width: 100%;
+        float: none;
+    }
+}
