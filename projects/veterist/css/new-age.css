@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -66,14 +66,14 @@ section h2 {
   background-color: white;
   -webkit-transition: all .35s;
   transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -90,7 +90,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -428,7 +428,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -436,6 +436,22 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.left-aligned {
+	text-align: left;
+}
+
+.left-aligned span.reduced {
+	font-size: 42px;
+}
+
+p.feature-text {
+	color: black;
+	font-size: 15px;
+	width: 375px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2.whiteHeader {
@@ -453,29 +469,41 @@ h3 {
 
 h3.doc_title {
 	color: black;
-	text-align: center;
+	text-align: left;
 }
 
 h3.feature-header {
 	color: black;
 }
 
+h3.video-title {
+	font-size: 24px;
+}
+
 img.iphone-img {
 	height: 667px;
 	width: 375px;
 	margin:auto;
+	margin-top: 40px;
 }
 
 img.img-team {
-	height: 263px;
-	width: 263px;
-	border: 7px solid white;
+	height: 150px;
+	width: 150px;
+}
+
+div.container {
+	max-width: 1080px;
 }
 
 div.team {
 	text-align: center;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+div.team h3 {
+	font-size: 20px;
 }
 
 img.device-img {
