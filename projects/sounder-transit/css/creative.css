@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans','Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
 }
 .mockup {
   margin: 0 auto;
@@ -60,10 +61,16 @@ h6 {
 section {
   padding: 8rem 0;
 }
-
+.mb-5{
+  font-weight:bold!important;
+  display: inline-block;
+  width: 80%;
+}
 .team-member img{
   margin: 5px auto;
-  border: 7px solid #ddd
+  width:150px;
+  height:150px;
+  /* border: 7px solid #ddd */
 }
 .img-responsive {
   display: block;
@@ -80,6 +87,7 @@ section {
 }
 .section-heading {
   margin-top: 0;
+  margin-bottom:50px;
 }
 
 ::-moz-selection {
