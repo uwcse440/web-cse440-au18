@@ -11,6 +11,7 @@
 body {
   background-color: #fff;
   color: #333;
+  font-family: Lato;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   color: #000;
   font-weight: 500;
+  font-size: 45px;
 }
 
 h4 {
@@ -146,6 +148,7 @@ section {
 
 .highlight {
   color: #55b03f;
+  font-size: 35px;
   font-weight: 500;
 }
 
@@ -199,7 +202,6 @@ section {
 
 #header #logo h1 {
   color: #505050;
-  font-family: "Philosopher", sans-serif;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -305,9 +307,8 @@ section {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   outline: none;
   letter-spacing: 0;
   transition: 0.3s;
@@ -318,7 +319,7 @@ section {
 }
 
 .nav-menu > li {
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .nav-menu ul {
@@ -337,12 +338,12 @@ section {
   color: #333;
   transition: 0.3s;
   display: block;
-  font-size: 14px;
+  font-size: 17px;
   text-transform: none;
 }
 
 .nav-menu ul li:hover > a {
-  color: #71c55d;
+  color: #55b03f;
 }
 
 .nav-menu ul ul {
@@ -467,10 +468,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------------------------------------*/
 #title {
   width: 100%;
-  height: calc(100vh - 40px);
+  height: calc(70vh);
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
 }
 
 @media (min-width: 1025px) {
@@ -497,7 +497,6 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  font-family: "Philosopher", sans-serif;
   color: #71c55d;
 }
 
@@ -512,7 +511,6 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #777;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -534,39 +532,36 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------------------------------------*/
 
 #overview li {
-  padding-left: 75px;
+  vertical-align: middle;
   display: inline-block;
-  width: 40%;
-  vertical-align: top;
+  width: 45%;
 }
 
 #overview .overview-item {
   display: inline;
 }
 
-#overview .left-column {
-  width: 75%;
-  margin-right: 25%;
+#overview .overview-column {
+  width: 100%;
   text-align: left;
-  padding-bottom: 150px;
-}
-
-#overview .right-column {
-  width: 75%;
-  margin-left: 25%;
-  text-align: right;
-  padding-bottom: 150px;
+  padding-bottom: 20px;
+  font-size: 25px;
 }
 
 #overview .container {
+  text-align: center;
+}
+
+#overview .overview-title {
+  text-align: left;
   font-size: 45px;
-  font-weight: 300;
+  padding-bottom: 40px;
 }
 
 #overview .overview-heading {
   text-align: left;
-  font-size: 35px;
-  padding-bottom: 30px;
+  font-size: 45px;
+  padding-bottom: 40px;
 }
 
 #overview .overview-sub-heading {
@@ -577,19 +572,20 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #overview .overview-description {
   text-align: left;
-  font-size: 15px;
+  font-size: 17px;
 }
 
-#overview .phone {
-  padding-left: 100px;
+#overview .overview-phone {
+  padding-left: 65px;
 }
 
 /* Features Section
 --------------------------------*/
 
 #features li {
+  vertical-align: middle;
   display: inline-block;
-  width: 40%;
+  width: 45%;
 }
 
 #features .container {
@@ -597,18 +593,21 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #features .feature-item {
-  display: inline;
-  padding: 20px;
+  padding: 50px;
 }
 
 #features .feature-title {
-  font-size: 35px;
+  font-size: 45px;
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #features .feature-text {
   text-align: left;
+  font-size: 17px;
+}
+
+#features .feature-pic {
 }
 
 /*--------------------------------------------------------------
@@ -663,7 +662,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-role {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /*--------------------------------------------------------------
@@ -678,6 +677,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .footer-text {
+  font-size: 17px;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
