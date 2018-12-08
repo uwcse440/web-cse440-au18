@@ -2,7 +2,10 @@
 
 body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font: 14pt "Open Sans", sans-serif;
+}
+p, ul {
+    /* Fix weird Firefox for Android font thing? */
     font-size: 14pt;
 }
 
