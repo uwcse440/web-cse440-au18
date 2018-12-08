@@ -59,6 +59,8 @@ h1, h2 {
 h1 {
     font-size: 36pt;
     padding: 0 50px;
+    background: url("logo.svg") no-repeat 45px 0;
+    text-indent: 85px;
 }
 h2 {
     font-size: 24pt;
