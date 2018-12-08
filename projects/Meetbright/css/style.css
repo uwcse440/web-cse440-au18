@@ -468,7 +468,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------------------------------------*/
 #title {
   width: 100%;
-  height: calc(70vh);
+  height: calc(65vh);
   background-size: 100%;
   position: relative;
 }
@@ -534,6 +534,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #overview li {
   vertical-align: middle;
   display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
   width: 45%;
 }
 
@@ -577,7 +579,6 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #overview .overview-phone {
-  padding-left: 65px;
 }
 
 /* Features Section
