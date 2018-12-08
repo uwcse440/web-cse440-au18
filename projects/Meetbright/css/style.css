@@ -573,6 +573,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #overview .overview-description {
   text-align: left;
   font-size: 17px;
+  letter-spacing: 0.5px;
 }
 
 #overview .overview-phone {
@@ -605,6 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #features .feature-text {
   text-align: left;
   font-size: 17px;
+  letter-spacing: 0.5px;
 }
 
 #features .feature-pic {
@@ -633,6 +635,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #documentation .doc-text {
   font-size: 25px;
+  letter-spacing: 0.5px;
 }
 
 /*--------------------------------------------------------------
@@ -663,6 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us .about-role {
   font-size: 17px;
+  letter-spacing: 0.5px;
 }
 
 /*--------------------------------------------------------------
