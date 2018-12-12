@@ -12,14 +12,11 @@ title: Projects
 ## Poster Session
 </div>
 <div class="panel-body" markdown="block">
-Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
-{% comment %}
 Thank you for joining us to celebrate the outstanding design work of CSE 440 students:
-{% endcomment %}
 
-Monday, March 12
+Monday, December 10
 
-10:45am to 12:20pm, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
+11:00am to 12:30pm, Odegaard 141
 
 <img src="{{ site.baseurl }}/images/poster_session.jpg" width="100%" alt="Poster Session"/>
 </div>
@@ -29,10 +26,10 @@ Monday, March 12
 
 <div class="sidebar_end"></div>
 
-<div class="alert alert-danger" markdown="1">
+<!--div class="alert alert-danger" markdown="1">
 This page is still being migrated and developed.
 Information here is likely suggestive of the final page, but remains subject to change.
-</div>
+</div-->
 
 # Project Theme
 
